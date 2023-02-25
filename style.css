@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.brand_logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(posterHD.jpg); 
+    background-position: top-left;
+    background-size: cover;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.logo{
+    width: 135px;
+    height: 85px;
+    padding: 5px 0px 0px 10px;
+}
+nav li{
+    display: inline-block;
+    list-style-type: none;
+}
+nav a{
+    color: #D9D9D9;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Julee', cursive;
+    padding: 3px 20px;
+}
+nav a:hover{
+    background: rgba(0,0,0,0.6);
+    border-radius: 25px;
+}
+.home{
+    height: 99%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(starry.jpg);
+    background-position: left-top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col1{
+    flex-basis: 50%;
+    padding-top: 5%;
+    padding-left: 4%;
+}
+.col2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h1{
+    font-size: 68px;
+    color: #D9D9D9;
+    font-weight: bold;
+    margin: 0% 0% 3% 5%;
+    font-family: 'Julee', cursive;
+}
+.col1 p{
+    font-size: 20px;
+    color: #D9D9D9;
+    margin: 0% 0% 0% 5%;
+    font-family: 'Julee', cursive;
+}
+button{
+    width: 180px;
+    background-color: #D9D9D9;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Julee', cursive;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0px;
+    margin: 20% 0% 0% 26%;
+    letter-spacing: 1.5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.2);
+    color:  #D9D9D9;
+    transition: 0.5s;
+}
+.cards{
+    width: 180px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 10px;
+    background-color: rgba(255,255,255,0.1);
+    transition: transform 0.5s;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Julee', cursive;
+    letter-spacing: 1px;
+}
+.cards:hover{
+    transform: translateY(-10px);
+}
+.card1{
+    background-image: url(deku.png);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.card2{
+    background-image: url(GOF.png);
+    background-size: 145px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.card3{
+    background-image: url(Naruto.png);
+    background-size: 175px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+footer{
+    height: 80px;
+    background-color: black;
+    text-align: end;
+    color: #D9D9D9;
+}
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 0px;
+    padding: 14px 20px 10px 0px;
+}
+.icon_container{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icons{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 1px 1px 2px #D9D9D9, -1px -1px 2px #D9D9D9;
+}
+.copy_logo{
+    float: left;
+    width: 100px;
+    height: 70px;
+    padding: 12px 0px 0px 10px;
+}
+/* series page */
+.series{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(sea.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0px;
+}
+/* movies page */
+.movies{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(paperplanes.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0px;
+}
+/* mangas page */
+.mangas{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(nightsky.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0px;
+}
