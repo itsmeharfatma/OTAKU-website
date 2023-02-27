@@ -31,17 +31,18 @@ nav a{
     color: #D9D9D9;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Julee', cursive;
     padding: 3px 20px;
 }
 nav a:hover{
-    background: rgba(0,0,0,0.6);
+/*     color: black; */
+    background: rgba(0,0,0,0.4);
     border-radius: 25px;
 }
 .home{
     height: 99%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(starry.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(nightsky.png);
     background-position: left-top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +98,7 @@ button{
 button:hover{
     cursor: pointer;
     background-color: rgba(255,255,255,0.2);
-    color:  #D9D9D9;
+/*     color:  #D9D9D9; */
     transition: 0.5s;
 }
 .cards{
@@ -181,8 +182,8 @@ footer p{
 }
 /* series page */
 .series{
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(nightsky.png);
+/*     height: 100vh; */
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(starry.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,9 +194,13 @@ footer p{
     justify-content: center;
     align-items: center;
 }
+.table{
+    margin: 30px 0px 30px 0px;
+}
 table{
     border-collapse: separate;
     border-spacing: 0;
+    backdrop-filter: blur(10px);
 }
 table tr th,
 table tr td{
@@ -216,13 +221,15 @@ table tr td:first-child {
 }
 th {
     color: white;
-    font-family: Georgia, serif;
-    font-size: 20px;
-    padding: 15px 20px 15px 20px;
+    font-family: 'Julee', cursive;
+    letter-spacing: 2px;
+    font-size: 22px;
+    padding: 18px 20px 18px 20px;
 }
 td {
     color: white;
-    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    font-family: 'Julee', cursive;
     text-align: center;
     padding: 10px 20px 10px 20px;
 }
