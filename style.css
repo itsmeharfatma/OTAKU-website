@@ -11,12 +11,12 @@ html, body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
 /*     background-repeat: no-repeat; */
 /*     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(posterHD.jpg);  */
 /*     background-position: top-left; */
 /*     background-size: cover; */
-    box-sizing: border-box;
-    overflow: hidden;
 }
 .logo{
     width: 130px;
@@ -91,7 +91,7 @@ button{
     text-transform: uppercase;
     font-weight: bold;
     padding: 10px 0px;
-    margin: 20% 0% 0% 26%;
+    margin: 15% 0% 5% 26%;
     letter-spacing: 1.5px;
 }
 button:hover{
