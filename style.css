@@ -248,16 +248,12 @@ table tr:last-child td:last-child {
 }
 /* movies page */
 .movies{
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)), url(sea.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url(sea.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
     margin: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 .table{
     margin: 50px 30px 50px 30px;
@@ -318,10 +314,6 @@ table tr:last-child td:last-child {
     background-size: cover;
     box-sizing: border-box;
     margin: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 .table{
     margin: 50px 30px 50px 30px;
