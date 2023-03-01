@@ -146,12 +146,12 @@ footer{
 }
 footer p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     margin: 0px;
-    padding: 14px 20px 10px 0px;
+    padding: 18px 20px 10px 0px;
 }
 .icon_container{
-    height: 30px;
+    height: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -159,17 +159,17 @@ footer p{
     align-items: center;
 }
 .icons{
-    width: 200px;
-    height: 30px;
+    width: 170px;
+    height: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .icon{
-    width: 25px;
-    height: 25px;
-    border-radius: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
     background-color: white;
     box-shadow: 1px 1px 2px #D9D9D9, -1px -1px 2px #D9D9D9;
 }
@@ -248,7 +248,7 @@ table tr:last-child td:last-child {
 }
 /* movies page */
 .movies{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url(sea.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url(sea.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -308,7 +308,7 @@ table tr:last-child td:last-child {
 }
 /* mangas page */
 .mangas{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url(paperplanes.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(paperplanes.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
