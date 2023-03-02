@@ -361,3 +361,13 @@ table tr:last-child td:first-child {
 table tr:last-child td:last-child {
   border-bottom-right-radius: 10px;
 }
+@media all and (max-width: 600px){
+    nav, nav li, nav a{
+        display: none;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
