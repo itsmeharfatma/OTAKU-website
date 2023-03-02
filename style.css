@@ -5,6 +5,7 @@ html, body {
     padding: 0px;
     margin: 0px;
     width: 100%;
+    height: 100%;
 }
 .brand_logo{
     display: flex;
@@ -13,10 +14,6 @@ html, body {
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
-/*     background-repeat: no-repeat; */
-/*     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(posterHD.jpg);  */
-/*     background-position: top-left; */
-/*     background-size: cover; */
 }
 .logo{
     width: 130px;
@@ -40,7 +37,6 @@ nav a:hover{
     border-radius: 25px;
 }
 .home{
-    height: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(nightsky.png);
     background-position: left-top;
     background-repeat: no-repeat;
@@ -181,7 +177,6 @@ footer p{
 }
 /* series page */
 .series{
-    height: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url(starry.jpg);
     background-position: center;
     background-repeat: no-repeat;
