@@ -260,6 +260,12 @@ table tr:last-child td:last-child {
     margin: 0px;
 }
 @media all and (max-width: 600px){
+    html, body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    }
     .brand_logo{
     position: sticky;
     top: 0px;
