@@ -356,4 +356,18 @@ table tr:last-child td:last-child {
     .icon_container{
         margin: 8px 0px 0px 20px;
     }
+    th {
+    color: white;
+    font-family: 'Julee', cursive;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 15px 10px 15px 10px;
+    }
+    td {
+    color: white;
+    font-size: 10px;
+    font-family: 'Julee', cursive;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    }
 }
